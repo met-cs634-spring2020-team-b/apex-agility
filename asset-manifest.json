@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/apex-agility/static/css/main.d1b05096.chunk.css",
+    "main.js": "/apex-agility/static/js/main.986e6a54.chunk.js",
+    "main.js.map": "/apex-agility/static/js/main.986e6a54.chunk.js.map",
+    "runtime-main.js": "/apex-agility/static/js/runtime-main.269a1f36.js",
+    "runtime-main.js.map": "/apex-agility/static/js/runtime-main.269a1f36.js.map",
+    "static/js/2.a174b2e6.chunk.js": "/apex-agility/static/js/2.a174b2e6.chunk.js",
+    "static/js/2.a174b2e6.chunk.js.map": "/apex-agility/static/js/2.a174b2e6.chunk.js.map",
+    "index.html": "/apex-agility/index.html",
+    "precache-manifest.26d7693e9793bb0e71db57ab7aa195a9.js": "/apex-agility/precache-manifest.26d7693e9793bb0e71db57ab7aa195a9.js",
+    "service-worker.js": "/apex-agility/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/apex-agility/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.a174b2e6.chunk.js.LICENSE.txt": "/apex-agility/static/js/2.a174b2e6.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/apex-agility/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.269a1f36.js",
+    "static/js/2.a174b2e6.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.986e6a54.chunk.js"
+  ]
+}
