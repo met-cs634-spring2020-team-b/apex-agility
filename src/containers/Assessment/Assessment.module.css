@@ -38,7 +38,6 @@
 
 
 h2 {
-    font-size: 22px;
     font-family: sans-serif;
     text-transform: uppercase;
     color: rgb(17, 113, 192);
@@ -88,7 +87,10 @@ p {
     font-size: 22px;
     word-wrap: break-word;
     white-space: normal;
+    font-size: 22px;
+
 }
+
 
 .bFirst .contactUsBtn {
     display: flex;

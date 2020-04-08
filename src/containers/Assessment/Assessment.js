@@ -46,7 +46,7 @@ const Assessment = () => {
                             <p>{content.leadership}</p>
                         </div>
                         <div className={styles.logo}>
-                        <img src={leadership} alt={"leadership-logo"}/>
+                        <img src={leadership} alt="leadership-logo"/>
                         </div>
                         
                     </div>
@@ -57,7 +57,7 @@ const Assessment = () => {
                         </div>
 
                         <div className={styles.logo}>
-                            <img src={organization} alt={"organization-logo"}/>
+                            <img src={organization} alt="organization-logo"/>
                         </div>   
                     </div>
                     <div className={styles.assessment}>
@@ -67,7 +67,7 @@ const Assessment = () => {
                         </div>
 
                         <div className={styles.logo}>
-                            <img src={portfolio} alt={"portfolio-logo"}/>
+                            <img src={portfolio} alt="portfolio-logo"/>
                         </div>
                     </div>
                     <div className={styles.assessment}>
@@ -77,7 +77,7 @@ const Assessment = () => {
                         </div>
 
                         <div className={styles.logo}>
-                            <img src={program} alt={"program-logo"}/>
+                            <img src={program} alt="program-logo"/>
                         </div>
                     </div>
                     <div className={styles.assessment}>
@@ -87,7 +87,7 @@ const Assessment = () => {
                         </div>
 
                         <div className={styles.logo}>
-                            <img src={team} alt={"team-logo"}/>
+                            <img src={team} alt="team-logo"/>
                         </div>
                     </div>
                     <div className={styles.assessment}>
@@ -97,7 +97,7 @@ const Assessment = () => {
                         </div>
 
                         <div className={styles.logo}>
-                            <img src={individual} alt={"individual-logo"}/>
+                            <img src={individual} alt="individual-logo"/>
                         </div>
                     </div>
                 </div>

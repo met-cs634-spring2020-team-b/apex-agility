@@ -12,10 +12,13 @@ import reviewer2 from './assets/reviewer_2.jpg';
 import reviewer3 from './assets/reviewer_3.jpg';
 import reviewer4 from './assets/reviewer_4.jpg';
 
-import psm from './assets/psm.png';
+import courseList from '../Training/courseList';
 
 
-const CourseMain = () => {
+const CourseMain = (props) => {
+    const courseId = props.match.params.courseId;
+    const course = courseList[courseId];
+
     return(
         <div className={styles.courseContainer}>
 
@@ -23,11 +26,10 @@ const CourseMain = () => {
                 <p>Background Image</p>
             </div>
 
-
             <div className={styles.courseInfo}>
                 <div className={styles.top}>
                     <div className={styles.logo}>
-                        <img src={psm} alt={"psm-logo"}/>
+                        <img src={course.logo} alt={course.label}/>
                     </div>
                     
                     <div className={styles.courseTitleOuter}>
@@ -69,11 +71,11 @@ const CourseMain = () => {
                             <h1>Meet the instructor</h1>
                             <div className={styles.instructorInfo}>
                                 <div className={styles.firstRow}>
-                                    <img src={instructorImg2} alt={"instructor-2"}/>
+                                    <img src={instructorImg2} alt="instructor-2"/>
                                     <Content/>
                                 </div>
                                 <div className={styles.secondRow}>
-                                    <img src={instructorImg1} alt={"instructor-1"}/>
+                                    <img src={instructorImg1} alt="instructor-1"/>
                                     <Content/>
                                 </div>
                             </div>
