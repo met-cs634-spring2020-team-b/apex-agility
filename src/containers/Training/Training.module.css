@@ -1,0 +1,115 @@
+
+
+.trainingContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.topBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+    height: 47vh;
+
+    background-image: url('./assets/Training.jpg');
+    background-color: lightgrey;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bottomContainer {
+    padding: 0;
+    margin: 0;
+
+    background-color: white;
+}
+
+.title h2 {
+    font-size: 22px;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.dropDownContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 28px;
+
+}
+
+.dropDownContainer div {
+    display: flex;
+    align-items: center;
+    width: 18%;
+    padding: 5px 12px;
+    border: 1px solid rgb(17, 113, 192);
+    background-color: azure;
+}
+
+.courses {
+    margin: 10px 28px;
+    padding: 12px;
+}
+
+.courses img {
+    margin-top: 10px;
+    height: 15vh;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+.courses .corporate img {
+    margin-top: 10px;
+    height: 10vh;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+
+.courses .dummy {
+    margin-top: 10px;
+    height: 14vh;
+    width: 14vh;
+    padding: 10px;
+    border-radius: 15%;
+
+}
+
+.courses img:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.courses .leadershipCourse {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.courses div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.courses div a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.courses p {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(17, 113, 192);
+}
+
+
