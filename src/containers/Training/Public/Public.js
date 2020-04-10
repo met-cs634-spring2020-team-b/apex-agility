@@ -14,6 +14,7 @@ const Public = () => {
             <ScrumOrg/>
             <ScrumAlliance/>
             <ProjectManagement/>
+           
         </div>
     );
 }

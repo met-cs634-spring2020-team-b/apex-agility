@@ -49,17 +49,19 @@
 
 .logo {
     display: flex;
-    width: 30%;
+    
+    width: 60%;
 
     margin: 4px 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 
 }
 
 .logo img {
     height: 125px;
     width: auto;
+    margin-right: 85px;
 }
 
 .logo p {
@@ -71,6 +73,8 @@
 .courseTitleOuter {
     display: flex;
     flex-direction: column;
+
+    width: 40%;
   
     margin: 4px 20px;
 
@@ -79,6 +83,7 @@
 .courseTitleInner {   
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     
 }
 
@@ -89,8 +94,9 @@
 }
 
 .courseTitleInner li {
-    font-size: 16px;
+    font-size: 14px;
     font-family: sans-serif;
+    font-weight: bold;
    
     color: rgb(17, 113, 192);
     
@@ -99,6 +105,8 @@
     margin-top: 0;
     margin-left: 5px;
     padding-bottom: 10px;
+
+    
 }
 
 .registerBtn {
@@ -234,56 +242,15 @@
     margin: 7px 10px;
 }
 
-/**
-.reviews .image {
-    height: 12vh;
-    width: 30%;
-
+.reviews p {
+    text-align: left;
+    font-style: italic;
 }
-
-.reviews .image .imgFirstReview {
-    height: inherit;
-    width: 100%;
-    background-image: url('./assets/reviewer_1.jpg');
-    background-size: cover;
-    background-position: contain;
-    background-repeat: no-repeat;
-}
-
-.reviews .image .imgSecondReview {
-    height: inherit;
-    width: 100%;
-    background-image: url('./assets/reviewer_2.jpg');
-    background-size: cover;
-    background-position: contain;
-    background-repeat: no-repeat;
-}
-
-.reviews .image .imgThirdReview {
-    height: inherit;
-    width: 100%;
-    background-image: url('./assets/reviewer_3.jpg');
-    background-size: cover;
-    background-position: contain;
-    background-repeat: no-repeat;
-}
-
-.reviews .image .imgFourthReview {
-    height: inherit;
-    width: 100%;
-    background-image: url('./assets/reviewer_4.jpg');
-    background-size: cover;
-    background-position: contain;
-    background-repeat: no-repeat;
-}
-*/
-
-
 
 .reviews .textBox {
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 70%;
     padding: 0;
     margin: 0;
 }

@@ -1,10 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import styles from './CourseMain.module.css';
-import Content from './Content';
+import content from './content';
 import Button from '../../components/Button';
 
-import instructorImg1 from './assets/instructor_1.jpg';
 import instructorImg2 from './assets/instructor_2.jpg';
 
 import reviewer1 from './assets/reviewer_1.jpg';
@@ -17,7 +16,16 @@ import courseList from '../Training/courseList';
 
 const CourseMain = (props) => {
     const courseId = props.match.params.courseId;
-    const course = courseList[courseId];
+    
+    const courses = courseList.reduce(function(prev, curr) {
+        return prev.concat(curr);
+    })
+
+    const course = courses.find(function(c) {
+        return c.id === courseId;
+    })
+
+    const {placeholder, instructor, reviews} = content;
 
     return(
         <div className={styles.courseContainer}>
@@ -35,7 +43,7 @@ const CourseMain = (props) => {
                     <div className={styles.courseTitleOuter}>
                         <div className={styles.courseTitleInner}>
                             <ul>
-                                <li>Course title:</li>
+                                <li>Course Title:  {course.title}</li>
                                 <li>Start date:</li>
                                 <li>Location:</li>
                             </ul>
@@ -56,14 +64,14 @@ const CourseMain = (props) => {
                         <div className={styles.midLeftTop}>
                             <h1>About this course</h1>
                             <div className={styles.textBox}>
-                                <Content/>
+                                <p>{placeholder}</p>
                             </div>
                         </div>
 
                         <div className={styles.midLeftCenter}>
                             <h1>What you learn?</h1>
                             <div className={styles.textBox}>
-                                <Content/>
+                                 <p>{placeholder}</p>
                             </div>
                         </div>
 
@@ -72,11 +80,7 @@ const CourseMain = (props) => {
                             <div className={styles.instructorInfo}>
                                 <div className={styles.firstRow}>
                                     <img src={instructorImg2} alt="instructor-2"/>
-                                    <Content/>
-                                </div>
-                                <div className={styles.secondRow}>
-                                    <img src={instructorImg1} alt="instructor-1"/>
-                                    <Content/>
+                                     <p>{instructor}</p>
                                 </div>
                             </div>
                             
@@ -98,28 +102,28 @@ const CourseMain = (props) => {
                             <div className={styles.reviews}>
                                 <img src={reviewer1} alt="first-reviewer"/>
                                 <div className={styles.textBox}>
-                                    <Content/>
+                                     <p>{reviews.first}</p>
                                 </div>
                             </div>
 
                             <div className={styles.reviews}>
                                 <img src={reviewer2} alt="second-reviewer"/>
                                 <div className={styles.textBox}>
-                                    <Content/>
+                                     <p>{reviews.second}</p>
                                 </div>
                             </div>
 
                             <div className={styles.reviews}>
                                 <img src={reviewer3} alt="third-reviewer"/>
                                 <div className={styles.textBox}>
-                                    <Content/>
+                                     <p>{reviews.third}</p>
                                 </div>
                             </div>
 
                             <div className={styles.reviews}>
                                 <img src={reviewer4} alt="fourth-reviewer"/>
                                 <div className={styles.textBox}>
-                                    <Content/>
+                                     <p>{reviews.fourth}</p>
                                 </div>
                             </div>
                         </div>

@@ -46,22 +46,70 @@
 
 }
 
-.dropDownContainer div {
-    display: flex;
-    align-items: center;
+.dropDownContainer .dropdown {
+    display: inline-block;
+    position: relative;
+    
     width: 18%;
     padding: 5px 12px;
     border: 1px solid rgb(17, 113, 192);
     background-color: azure;
 }
 
+/**Dropdown styling */
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown .dropdownContent {
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;
+
+    width: 100%;
+    margin: 5px 0;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdownContent a {
+    display: block; 
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.5;
+    padding: 5px 15px;
+    color: rgb(17, 113, 192);
+    border-bottom: 2px solid lightgray;
+}
+
+.dropdown:hover {
+    background-color: #ddd;
+
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {
+    display: block;
+    background-color: azure;
+}
+
+/* Change color of dropdown links on hover */
+.dropdownContent a:hover {
+    background-color: #ddd;
+}
+
 .courses {
     margin: 10px 28px;
     padding: 12px;
+    border: 1px solid rgb(17, 113, 192);
+    border-radius: 10px;
 }
 
 .courses img {
-    margin-top: 10px;
+    margin-top: 0px;
     height: 15vh;
     padding: 10px;
     border-radius: 15%;
@@ -111,5 +159,8 @@
     text-align: center;
     color: rgb(17, 113, 192);
 }
+
+
+
 
 
