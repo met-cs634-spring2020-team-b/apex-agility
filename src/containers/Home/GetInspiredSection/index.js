@@ -12,7 +12,7 @@ const slides = [{
   },
   {
     id: 1,
-    images: ['http://people.bu.edu/mgrin/images/mark_bio.jpg', 'https://www.bu.edu/eng/files/2016/05/ECE.faculty.profile.pictures.giles_.jpg', 'https://www.bu.edu/eng/files/2018/06/Kopell-Nancy-BU-BME.jpg'],
+    images: ['https://lh3.googleusercontent.com/proxy/hDD2_KJxrFxq3G_Ea5V7FEJAuZaqaTChPT8NyZL0M7nsf1wK330EIJ3TnQhz25vJjEJfscoHAdwmiRDl9KE-EW8CsXX50A', 'https://www.bu.edu/eng/files/2016/05/ECE.faculty.profile.pictures.giles_.jpg', 'https://www.bu.edu/eng/files/2018/06/Kopell-Nancy-BU-BME.jpg'],
     reviews: ['I learned success doesn\'t just find you.  You have to go out and get it.', 'The best thing I ever did for myself.', 'The harder you work for something, the greater you\'ll feel when you achieve it.'],
     reviewers: ['Mark Grinstaff, Professor, Boston University', 'Rosco Giles, Ph.D., Boston University', 'Nancy Kopell, Ph.D., Boston University College of Engineering'],
 }];

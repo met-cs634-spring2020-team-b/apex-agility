@@ -9,7 +9,6 @@ import facebook from './facebook.png'
 import linkedIn from './linkedin.png'
 import twitter from './twitter.png'
 import youtube from './youtube.png'
-import logo from './logo.png'
 
 const copyright = new Date().getFullYear();
 
@@ -18,8 +17,7 @@ const GlobalFooter = () => {
     <footer className={styles.footerOuter}>
       <div className={styles.footerInner}>
         <div className={styles.logo}>
-          <img src={logo} alt = "logo-icon" />
-	  <Link to={routes.HOME}><br/>360&#176; Collaboration</Link>
+          Logo
         </div>
         <div className={styles.links}>
           <h3>Related Links</h3>
@@ -28,14 +26,13 @@ const GlobalFooter = () => {
           <Link to={routes.REGISTER}>Become a Trainer</Link>
           <Link to={routes.TERMS_AND_CONDITIONS}>Terms and Conditions</Link>
           <span>Apex Agility &copy; {copyright}</span>
-          </div>
-	
+        </div>
         <div className={styles.social}>
           <h3>Follow Us</h3>
           <div className={styles.socialMediaIcons}>
-          <img src={facebook} alt = "facebook-icon" /> &nbsp; &nbsp;
-            <img src={linkedIn} alt = "linkedIn-icon" /> &nbsp; &nbsp;
-            <img src={twitter} alt = "twitter-icon" /> &nbsp; &nbsp;
+            <img src={facebook} alt = "facebook-icon" />
+            <img src={linkedIn} alt = "linkedIn-icon" />
+            <img src={twitter} alt = "twitter-icon" />
             <img src={youtube} alt = "youtube-icon" />
           </div>
         </div>

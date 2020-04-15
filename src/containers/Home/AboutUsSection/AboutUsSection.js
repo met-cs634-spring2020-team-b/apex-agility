@@ -11,10 +11,10 @@ const AboutUsSection = () => {
   return (
     <section className={styles.about_us_section}>
       <img src={about_us_img} alt="About Us" />
-      <p><b>
+      <p>
         Apex is a boutique Agile consultancy with decades of software development experience.&nbsp;&nbsp;
         We grew up in the era of structured design methodologies, adapted our learning to the rapid&nbsp;
-        development approaches, and graduated to Agile.  Wherever you are in your software evolution, we are there to help in your journey.</b>
+        development approaches, and graduated to Agile.  Wherever you are in your software evolution, we are there to help in your journey.
       </p>
       <div className={styles.button_container}>
         <Button>
@@ -26,7 +26,7 @@ const AboutUsSection = () => {
         </Button>
         <Button>
           <Link
-            to={routes.ABOUT}
+            to={routes.COURSES}
           >
             What We Do
           </Link>

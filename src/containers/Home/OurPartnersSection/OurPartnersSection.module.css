@@ -14,12 +14,12 @@
     justify-content: center;
     font-family: sans-serif;
     font-size: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
 }
 
 .our_partners_section div {
     display: flex;
-    padding: 0 0 0 0;
+    padding: 0 25px 25px 25px;
     justify-content: space-around;
     width: 80%;
 }
