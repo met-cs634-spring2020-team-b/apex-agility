@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/apex-agility/precache-manifest.f2af3181185cb31f32c58f6398e7a8c7.js"
+  "/apex-agility/precache-manifest.271ff594b897f73578a0b9b83e2ccd3e.js"
 );
 
 self.addEventListener('message', (event) => {

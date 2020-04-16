@@ -1,27 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb2d600ab4f9858e5e7b45fad161909a",
+    "revision": "b68d572831f50292b7a3559e77d426ed",
     "url": "/apex-agility/index.html"
   },
   {
-    "revision": "db4552db6f7b22c9e622",
-    "url": "/apex-agility/static/css/main.cc1c13c4.chunk.css"
+    "revision": "8983e68c8dd627e10941",
+    "url": "/apex-agility/static/css/main.c2238920.chunk.css"
   },
   {
-    "revision": "a2b455f8f1e9fff72389",
-    "url": "/apex-agility/static/js/2.da93b2f3.chunk.js"
+    "revision": "68b2f226f176f0581720",
+    "url": "/apex-agility/static/js/2.ccc2c6d9.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/apex-agility/static/js/2.da93b2f3.chunk.js.LICENSE.txt"
+    "url": "/apex-agility/static/js/2.ccc2c6d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db4552db6f7b22c9e622",
-    "url": "/apex-agility/static/js/main.e7eb2799.chunk.js"
+    "revision": "8983e68c8dd627e10941",
+    "url": "/apex-agility/static/js/main.5fa8715d.chunk.js"
   },
   {
     "revision": "d213340de068376779c9",
     "url": "/apex-agility/static/js/runtime-main.269a1f36.js"
+  },
+  {
+    "revision": "105853c0c1ffc4ffccf17cb748c397da",
+    "url": "/apex-agility/static/media/Coaching.105853c0.png"
+  },
+  {
+    "revision": "dc9f95718c44ea6f2c054f02309b6b18",
+    "url": "/apex-agility/static/media/MaturityAssessment.dc9f9571.png"
+  },
+  {
+    "revision": "bae86957c49d94ebc489e956ca9e8723",
+    "url": "/apex-agility/static/media/SAFe.bae86957.png"
+  },
+  {
+    "revision": "83cb9003cbb951381a4951a05ea0991f",
+    "url": "/apex-agility/static/media/Scrum-alliance.83cb9003.png"
+  },
+  {
+    "revision": "af78d71d4596e5dd634f07480fe54917",
+    "url": "/apex-agility/static/media/Scrum-org.af78d71d.png"
+  },
+  {
+    "revision": "9e85fb748ed1884ddae2eaf96320fa9c",
+    "url": "/apex-agility/static/media/Training.9e85fb74.png"
   },
   {
     "revision": "aa714d6c53075d0e164eeb7f62fb4f08",
@@ -34,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "627c25ab5d40682b503d1621ef73ce67",
     "url": "/apex-agility/static/media/bg_course_page.627c25ab.jpg"
+  },
+  {
+    "revision": "1cbd08fa2d822bc366d07a9827abfba5",
+    "url": "/apex-agility/static/media/coaching-banner.1cbd08fa.png"
   },
   {
     "revision": "69f4104c9a84f7a3b1bdf2da4f82edfc",
@@ -74,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "78c01d1e002199aa85fce6ff1daa6a73",
     "url": "/apex-agility/static/media/psm.78c01d1e.png"
+  },
+  {
+    "revision": "3a09ea55fd8d17af04398ae152205576",
+    "url": "/apex-agility/static/media/register-page-banner.3a09ea55.jpg"
   },
   {
     "revision": "dab13108854d03957a82c8d8be9f4232",
