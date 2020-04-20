@@ -18,7 +18,7 @@ const GlobalHeader = () => {
         </div>
         <Navigation />
         <Button>
-          <Link to={routes.COURSES}>View Courses</Link>
+          <Link to={routes.UPCOMING_COURSES}>View Courses</Link>
         </Button>
       </header>
     </Headroom>

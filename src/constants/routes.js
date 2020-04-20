@@ -10,6 +10,7 @@ const routes = {
   REGISTER: `${slug}/register`,
   TERMS_AND_CONDITIONS: `${slug}/terms-and-conditions`,
   THANK_YOU: `${slug}/thank_you`,
+  UPCOMING_COURSES: `${slug}/upcoming-courses`,
 };
 
 export default routes;
