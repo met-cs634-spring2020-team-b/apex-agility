@@ -64,6 +64,13 @@ const CoursesList = () => {
   }, [displayedCourses]);
 
   const handleClearFilters = () => {
+
+    courses.forEach((course) => {
+      if (!course.showDefault) {
+        course.display = false;
+      }
+    });
+    
     setDisplayedCourses(courses);
     const selects = document.getElementsByTagName('select');
     for(let select of selects) {
@@ -76,9 +83,17 @@ const CoursesList = () => {
     const value = document.getElementById(id).value;
 
     if (id && value === "") {
+      courses.forEach((course) => {
+        if (!course.showDefault) {
+          course.display = false;
+        }
+      });
+
       setDisplayedCourses(courses);
     } else {
       const filteredCourses = displayedCourses.filter((course) => value === course[id].toLowerCase());
+
+      filteredCourses.forEach((course) => course.display = true);
       setDisplayedCourses(filteredCourses);
     }
   };

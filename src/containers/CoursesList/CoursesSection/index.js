@@ -14,12 +14,17 @@ const CoursesSection = ({ sectionCourses, sectionHeader }) => {
       <div>
         {
           sectionCourses.map((course) => {
-            return (
-              <Course
-                key={`${sectionHeader}-${course.id}`}
-                course={course}
-              />
-            )
+            if(course.display) {
+              return (
+                <Course
+                  key={`${sectionHeader}-${course.id}`}
+                  course={course}
+                />
+              )
+            }
+            else {
+              return false;
+            }
           })
         }
       </div>
