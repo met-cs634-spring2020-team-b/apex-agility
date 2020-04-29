@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d71e8e2daa94bca8d3f7769f44848ba2",
+    "revision": "54b1581047f3d48a7923b25ea71ae6fd",
     "url": "/apex-agility/index.html"
   },
   {
-    "revision": "5ae38c56ecb1189305c0",
-    "url": "/apex-agility/static/css/main.d03f3c4f.chunk.css"
+    "revision": "34497d0e44a388299632",
+    "url": "/apex-agility/static/css/2.8dbe6964.chunk.css"
   },
   {
-    "revision": "eb8ed71b45e12b66a224",
-    "url": "/apex-agility/static/js/2.6abf3d52.chunk.js"
+    "revision": "67fa6038edf21af32829",
+    "url": "/apex-agility/static/css/main.25297e70.chunk.css"
+  },
+  {
+    "revision": "34497d0e44a388299632",
+    "url": "/apex-agility/static/js/2.6ef9a87a.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/apex-agility/static/js/2.6abf3d52.chunk.js.LICENSE.txt"
+    "url": "/apex-agility/static/js/2.6ef9a87a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ae38c56ecb1189305c0",
-    "url": "/apex-agility/static/js/main.fd9ba840.chunk.js"
+    "revision": "67fa6038edf21af32829",
+    "url": "/apex-agility/static/js/main.ab2d1187.chunk.js"
   },
   {
     "revision": "d213340de068376779c9",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "49226c1254b256ba360d5444510ec1ae",
     "url": "/apex-agility/static/media/about_banner.49226c12.jpg"
+  },
+  {
+    "revision": "a7659413c2731faa575dc961448c213d",
+    "url": "/apex-agility/static/media/ase.a7659413.png"
   },
   {
     "revision": "afa51f674cdb3c00923d808054693a95",
@@ -112,6 +120,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/apex-agility/static/media/logo.a3cd9afc.png"
   },
   {
+    "revision": "3e9da672f4ae75c9a732f77b6449cd74",
+    "url": "/apex-agility/static/media/lpm.3e9da672.png"
+  },
+  {
     "revision": "c97b95a2d5800a6ddb09cc8e65fdaa1a",
     "url": "/apex-agility/static/media/organization.c97b95a2.png"
   },
@@ -140,6 +152,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/apex-agility/static/media/psd.b96279ef.png"
   },
   {
+    "revision": "503d5a603654bde61203c0adcb7630e6",
+    "url": "/apex-agility/static/media/psk.503d5a60.png"
+  },
+  {
     "revision": "200fa16a2e4be859125efdd46a01c512",
     "url": "/apex-agility/static/media/pspo.200fa16a.png"
   },
@@ -164,6 +180,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/apex-agility/static/media/reviewer_4.a3566184.jpg"
   },
   {
+    "revision": "4def8ba24fd34c9552094dde9db5a7ca",
+    "url": "/apex-agility/static/media/rte.4def8ba2.png"
+  },
+  {
     "revision": "6b50abbf44e678cfd6a4ad44b561c7b3",
     "url": "/apex-agility/static/media/safe.6b50abbf.png"
   },
@@ -178,10 +198,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d7b105a72367c0050589f95b8dc5542c",
     "url": "/apex-agility/static/media/scrum-org.d7b105a7.svg"
-  },
-  {
-    "revision": "8dc16e9de6a0f55df105f22f78badd47",
-    "url": "/apex-agility/static/media/sp.8dc16e9d.png"
   },
   {
     "revision": "09de5371db2a06fbae16e033a3c55752",
