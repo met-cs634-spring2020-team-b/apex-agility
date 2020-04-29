@@ -24,14 +24,14 @@ const slides = [{
   },
   {
     buttonText: 'View Courses',
-    href: routes.COURSES,
+    href: routes.UPCOMING_COURSES,
     id: 3,
     image: upcomingCoursesBanner,
     copy: 'Check out our upcoming courses!'
   },
   {
     buttonText: 'Our Offerings',
-    href: routes.ABOUT,
+    href: routes.COURSES,
     id: 4,
     image: coachingBanner,
     copy: 'See certification classes and corporate training offerings'
